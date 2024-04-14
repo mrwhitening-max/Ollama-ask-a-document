@@ -7,6 +7,12 @@
 pip install -r requirements.txt
 ```
 
+#### Step 2a: Install Venv
+```
+virtualenv ollama_document_read
+source ollama_document_read/bin/activate
+```
+
 #### Step 3: Pull the models (if you already have models loaded in Ollama, then not required)
 #### Make sure to have Ollama running on your system from https://ollama.ai
 ```
